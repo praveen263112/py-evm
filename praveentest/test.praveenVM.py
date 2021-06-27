@@ -61,7 +61,7 @@ tx1 = vm.create_unsigned_transaction(
     gas_price=0,
     gas=100000,
     to=RECEIVER,
-    value=0,
+    value=10,
     data=b'',
 )
 
